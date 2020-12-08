@@ -1,6 +1,7 @@
 #!/bin/sh
 # This script was made by `goferito` on Github.
 # Some cleanup by Luke.
+# Remember to place this in /bin and chmod +x i3resize
 
 [ -z "$1" ] && echo "No direction provided" && exit 1
 distanceStr="2 px or 2 ppt"
